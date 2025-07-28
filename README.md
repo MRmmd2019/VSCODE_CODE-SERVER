@@ -38,8 +38,3 @@ chmod +x setup.sh
 ```
 > If script `setup.sh` fails during package installation (due to network issues), you can re-execute it again.
 
-### FYI
-
-- If you face any problem or get any error, you can create an issue & i'll try to help.
-- Don't Email or DM me to ask how to hack, I ain't a Hacker. 
-- Have Fun, Share this repository with your friends.
