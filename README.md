@@ -63,7 +63,7 @@ git clone --depth=1 https://github.com/MRmmd2019/VSCODE_CODE-SERVER
 
 # اجرا و نصب
 ```
-cd termux-vsc
+cd VSCODE_CODE-SERVER
 chmod +x setup.sh
 ./setup.sh
 ```
