@@ -1,40 +1,96 @@
-### What is termux?
+<div align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&height=140&text=Termux+VSC+Installer&fontSize=36&fontColor=black&desc=🚀+نصب+سریع،+کدنویسی+در+ترمینال،+بدون+نیاز+به+روت!&descSize=18&descAlignY=65&color=gradient&animation=fadeIn" />
+</div>
 
-Termux is an *Android terminal emulator* and **Linux environment** app that works directly with **no rooting** or setup required. A minimal base system is installed automatically - additional packages are available using the *PKG/APT package manager*. More [Here](https://termux.com/)... <br />
+<h1 align="center">🎯 خوش اومدی به ابزار نصب VSC با ترموکس 🎯</h1>
 
-### How To install termux?
+<p align="center">
+  👋 این ریپو طراحی شده برای راه‌اندازی سریع vscode و نصب محیط توسعه‌ای سبک ولی قدرتمند  
+  📲 بدون نیاز به روت یا تنظیمات پیچیده — فقط نصب کن و اجرا کن  
+  🛠️ مناسب برای توسعه‌دهنده‌های موبایل‌پسند و عاشق ترمینال!
+</p>
 
-You can install termux form f-droid. <br />
+<img src="https://github.com/SamirPaulb/SamirPaulb/blob/main/assets/rainbow-superthin.webp?raw=true" width="100%" />
 
-- Download [Termux](https://f-droid.org/packages/com.termux/) <br />
-- Download [Termux:API](https://f-droid.org/packages/com.termux.api/) <br />
+<h2 align="center">🧠 درباره Termux</h2>
 
-More information about installation is [here](https://wiki.termux.com/wiki/Main_Page) <br />
+<div align="center">
 
-### Preparation
+📱 ترموکس (termux) یه امولاتور ترمینال و محیط لینوکسی برای اندرویده که بدون روت اجرا می‌شه  
 
-Install `Termux` & `Termux:API` on your phone.
+📦 می‌تونی با `pkg` یا `apt` هر پکیجی که خواستی نصب کنی  
 
-### Installation
+🔗 اطلاعات بیشتر توی [termux.com](https://termux.com)
 
-After installing both applications above, open `Termux` and follow the steps below -
+</div>
 
-- Update termux packages and install `git`
+<div align="center">
+
+```yaml
+📦 محیط پایه: Linux CLI  
+🔧 مدیریت بسته‌ها: pkg / apt  
+🚫 نیاز به روت؟ خیر!  
+🔥 مناسب برای: توسعه ابزار، تست، اجرای اسکریپت، آموزش، SSH، هک اخلاقی
+```
+
+</div>
+
+<img src="https://github.com/SamirPaulb/SamirPaulb/blob/main/assets/rainbow-superthin.webp?raw=true" width="100%" />
+
+<h2 align="center">⚙️ راه‌اندازی Termux</h2>
+
+- 🚀 [دانلود Termux از F-Droid](https://f-droid.org/packages/com.termux/)
+- 🔧 [دانلود Termux:API](https://f-droid.org/packages/com.termux.api/)
+- 📖 اطلاعات بیشتر: [Termux Wiki](https://wiki.termux.com/wiki/Main_Page)
+
+
+<img src="https://github.com/SamirPaulb/SamirPaulb/blob/main/assets/rainbow-superthin.webp?raw=true" width="100%" />
+
+# برو به ترموکس و اینا رو اجرا کن:
+
 ```
 pkg upgrade && pkg install -y git
 ```
 
-- Clone this repository
+
+# ریپو رو کلون کن
+
 ```
 git clone --depth=1 https://github.com/afonsoft/termux-vsc.git
+
 ```
-- Change to cloned directory and run `setup.sh` 
+
+
+# اجرا و نصب
 ```
 cd termux-vsc
 chmod +x setup.sh
-```
-```
 ./setup.sh
 ```
-> If script `setup.sh` fails during package installation (due to network issues), you can re-execute it again.
 
+> 💡 اگر نصب با مشکل مواجه شد، دوباره اجرای setup.sh رو امتحان کن!
+
+<img src="https://github.com/SamirPaulb/SamirPaulb/blob/main/assets/rainbow-superthin.webp?raw=true" width="100%" />
+
+<h align="center">🌐 راه‌های ارتباط با من</h2>
+
+<p align="center">
+  <a href="https://t.me/yourTelegramUsername">
+    <img src="https://img.shields.io/badge/TELEGRAM-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white" />
+  </a>
+  <a href="mailto:iran.mohammad1389@gmail.com">
+    <img src="https://img.shields.io/badge/EMAIL-D14836?style=for-the-badge&logo=gmail&logoColor=white" />
+  </a>
+  <a href="https://linkedin.com/in/yourLinkedIn">
+    <img src="https://img.shields.io/badge/LINKEDIN-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" />
+  </a>
+  <a href="https://mohammad.dev">
+    <img src="https://img.shields.io/badge/WEBSITE-000000?style=for-the-badge&logo=About.me&logoColor=white" />
+  </a>
+</p>
+
+  <img src="https://github.com/SamirPaulb/SamirPaulb/blob/main/assets/rainbow-superthin.webp?raw=true" width="100%" />
+
+<div align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&height=120&section=footer&color=gradient" />
+</div>
