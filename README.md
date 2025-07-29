@@ -56,7 +56,7 @@ pkg upgrade && pkg install -y git
 # ریپو رو کلون کن
 
 ```
-git clone --depth=1 https://github.com/afonsoft/termux-vsc.git
+git clone --depth=1 https://github.com/MRmmd2019/VSCODE_CODE-SERVER
 
 ```
 
